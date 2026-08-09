@@ -6,7 +6,7 @@ edition = "2026"
 [dependencies]
 
 [[bin]]
-mal = "src/main.rs"
+dng2 = "src/main.rs"
 
 [profile.release]
 opt-level = "z"

@@ -1,4 +1,4 @@
-# Dango2
+# Dairy Shake
 
 ## Description
 A DSL (Domain-Specific Language) focused on abstract logic, such as classical, fuzzy, and paraconsistent logic, among others.

@@ -52,10 +52,10 @@ fn main() {
 }
 
 fn parsing() {
-    let args: Vec<&str> = env::args().collect();
+    let args: Vec<String> = env::args().collect();
 
     if args.len() != 2 {
-        println!("{}: The command must have exactly 1 argument;\nEnter the correct path of the .mal file", "\x1B[31mError");
+        println!("{}: The command must have exactly 1 argument;\nEnter the correct path of the . file", "\x1B[31mError");
         process::exit(1);
     }
 
