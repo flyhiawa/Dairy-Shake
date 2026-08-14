@@ -1,17 +1,26 @@
 use std::{
     collections::HashMap,
-    env, 
-    fmt::Error, 
-    fs, 
+    env,
+    fmt::Error,
+    fs,
     io::{
         self,
         BufRead,
         BufReader
-    }, 
-    path::Path, 
-    process, 
+    },
+    path::Path,
+    process,
     vec::Vec,
 };
+
+enum KeyWords {
+    Fun,
+    Cvar,
+    Background,
+    Equals,
+    Identifier(String).
+    
+}
 
 pub struct SymName(String);
 
@@ -39,15 +48,6 @@ enum Types {
 }
 
 fn main() {
-    //let args: Vec<&str> = env::args().collect();
-    
-    //if args.len() != 2 {
-        //println!("{}: The command must have exactly 1 argument;\nEnter the correct path of the .mal file", "\x1B[31mError");
-        //process::exit(1);
-    //}
-
-    //let path_mal = fs::File::open(&args[1]);
-    //let reader = BufReader::new(path_mal);
     parsing();
 }
 
