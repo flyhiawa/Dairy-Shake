@@ -1,14 +1,25 @@
-name: DeploySite
+name: Deploy do Site
+
 on:
   push:
     branches:
       - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Deploy to GitHub Pages
+      - name: Checkout do código 📂
+        uses: actions/checkout@v4
+
+      - name: Deploy para o GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: Site
