@@ -1,12 +1,13 @@
 [package]
-name = "proj"
+name = "dairy-shake"
 version = "0.1.0"
 edition = "2026"
 
 [dependencies]
 
 [[bin]]
-dng2 = "src/main.rs"
+name = "dysk"
+path = "src/main.rs"
 
 [profile.release]
 opt-level = "z"

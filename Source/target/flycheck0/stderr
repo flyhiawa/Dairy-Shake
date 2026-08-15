@@ -1,0 +1,4 @@
+error: failed to parse manifest at `/home/flyhiawa/Maltihl/proj/Cargo.toml`
+
+Caused by:
+  binary target bin.name is required
