@@ -17,8 +17,8 @@ Dairy Shake is a DSL for abstract logic (classical logic and non-classical logic
 - [Dairy Shake Page](https://flyhiawa.github.io/Dairy-Shake) <br>
 
 The page contains:
-1. Downloads
-2. Docs
+1. Downloads (Coming Soon...)
+2. Docs (Coming Soon...)
 3. Discord Server
 
 ## Language Status
