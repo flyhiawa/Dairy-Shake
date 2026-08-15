@@ -1,4 +1,4 @@
-name: Deploy do Site
+name: Site Deploy
 
 on:
   push:
@@ -16,10 +16,10 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout do código 📂
+      - name: Code Checkout
         uses: actions/checkout@v4
 
-      - name: Deploy para o GitHub Pages 🚀
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: Site
