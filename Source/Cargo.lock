@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "proj"
+name = "dairy-shake"
 version = "0.1.0"
