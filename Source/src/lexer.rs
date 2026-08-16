@@ -25,7 +25,7 @@ fn tokenizer() -> Result<Vec<Token>, String> {
 
 	for lines_result in reader.lines() {
 		let lines: String = lines_result.map_err(|e|e.to_string())?;
-		for word in lines.split_whitespace() {
+		for wchars in lines.chars() {
 			
 		}
 	}
